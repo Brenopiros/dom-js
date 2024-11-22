@@ -1,0 +1,34 @@
+
+/* Estilo padrão para o modo claro */
+body.claro {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Estilo para o modo escuro */
+body.escuro {
+  background-color: #121212;
+  color: #ffffff;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Estilo do botão */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
